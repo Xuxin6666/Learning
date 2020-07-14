@@ -1,0 +1,48 @@
+.top{
+	width:100%;
+	height: 100px;
+	background-color: #f6f6f6;
+	text-align: center;
+	font-size: 50px;
+	line-height: 100px;
+}
+
+.main{
+	margin: 70px auto;
+	width: 600px;
+	height: 300px;
+	background-color: #f6f6f6;
+	padding: 50px;
+	padding-top:50px;
+	box-sizing: border-box;
+	line-height: 35px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.main #user,#email{
+	width: 400px;
+}
+
+.main #submit{
+	margin-top: 15px;
+	width: 400px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: #000;
+}
+
+ul{
+	list-style: none;
+}
+
+#warning{
+	display: inline;
+}
+
+.main .error{
+	margin-left: 30px;
+	padding: 0 20px;
+	background-color: red;
+	color: white;
+}
